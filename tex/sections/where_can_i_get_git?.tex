@@ -1,0 +1,84 @@
+%
+%==> Section 1: Where can I get Git?
+%
+\section{
+  Where can I get Git?
+  }
+%
+%==> Where can I get Git?
+%
+\begin{frame}[fragile]
+  \frametitle{
+    Where can I get Git?
+  }
+
+  \textcolor{red}{Installing Git:} You can either install it as a package or via another installer, or download the source code and compile it yourself.
+
+\end{frame}
+
+%
+%==> Installing on Mac
+%
+\begin{frame}[fragile]
+  \frametitle{
+    Installing on Mac
+  }
+  \begin{itemize}%[<+->]
+  \item
+    A Mac OS X Git installer is maintained and available for download at \href{http://git-scm.com/download/mac}{http://git-scm.com/download/mac}, or better yet;
+  \item
+    \textcolor{red}{Homebrew}, “the missing package manager for OS X,” allows you to easily install hundreds of open-source tools, see: \href{https://brew.sh/}{https://brew.sh/}
+
+    \bigskip
+
+    With Homebrew, installing Git is as easy as this:
+
+    \begin{lstlisting}
+      brew update
+      brew install git
+    \end{lstlisting}
+    
+  \item
+    For more detailed instructions, see: \href{http://kj-prince.com/install-git-mac-osx-homebrew/}{http://kj-prince.com/install-git-mac-osx-homebrew/}.
+  \end{itemize}
+
+\end{frame}
+
+%
+%==> Installing on Windows
+%
+\begin{frame}[fragile]
+\frametitle{\bf
+Installing on Windows
+}
+
+Windows:\href{http://msysgit.github.io/}{http://msysgit.github.io/}
+
+\end{frame}
+
+%
+%==> Installing on GNU/Linux
+%
+\begin{frame}[fragile]
+  \frametitle{
+    Installing on GNU/Linux
+  }
+
+Use the \textcolor{blue}{package-manager} that comes with your distribution.
+
+\begin{itemize}%[<+->]
+\item
+  If you're on a Debian-based distribution like Ubuntu, try {\tt apt-get}:
+  \begin{lstlisting}
+    $ sudo apt-get install git
+  \end{lstlisting}
+\item
+  If you're on Fedora for instance, try {\tt yum}:
+  \begin{lstlisting}
+    $ sudo yum install git-all
+  \end{lstlisting}
+\end{itemize}
+
+For different Unix-like flavors, see: \href{http://git-scm.com/download/linux}{http://git-scm.com/download/linux}.
+
+\end{frame}

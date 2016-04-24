@@ -1,0 +1,33 @@
+
+%
+%==> Standard packages
+%
+\usepackage{hyperref,amsmath,amssymb,mathtools}
+\usepackage{hyperref,mathrsfs,enumerate,xcolor,pgfkeys}
+
+%
+%==> Theme support
+%
+\usepackage{helvet}
+\definecolor{links}{HTML}{2A1B81}
+\hypersetup{colorlinks,linkcolor=,urlcolor=links}
+\mode<presentation>{
+	\usetheme{Pittsburgh}
+	\usecolortheme{seagull}
+	}
+% Set all frame titles to bold face
+\setbeamerfont{frametitle}{series=\bfseries}
+% Set default section counter to 0
+%\setcounter{section}{-1}
+
+%
+%==> Code support
+%
+\usepackage{listings,algorithm,algorithmic}
+\colorlet{verylightgray}{lightgray!50}
+\lstset{
+	language=bash,
+	basicstyle=\ttfamily,
+	backgroundcolor=\color{verylightgray},
+	mathescape=false
+	}
