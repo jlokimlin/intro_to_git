@@ -14,7 +14,5 @@ This TeX project contains a bare-bones beamer tutorial on git.
 
 Type the following command line arguments
 ```
-git clone https://github.com/jlokimlin/intro_to_git.git
-
-cd intro_to_git; bash typeset.sh
+git clone https://github.com/jlokimlin/intro_to_git.git; cd intro_to_git; bash typeset.sh
 ```
